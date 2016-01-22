@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SAP.GUI.Scripting.net</id>
+    <version>1.0.0</version>
+    <authors>Xiaoy312</authors>
+    <owners>Xiaoy312</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <title>SAP GUI Automation for .net</title>
+    <description>
+    A package that contains saprotwr.dll and sapfewse.ocx converted for .net:
+        - saprotwr.dll : ROT Wrapper
+        - sapfewse.ocx : Controls library
+    
+    SAP version : 730 Final Release
+    
+    This package is created to be referenced by LINQPad, as it doesn't support type and COM library.
+    </description>
+    <releaseNotes>Porting to NuGet</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>SAP net</tags>
+  </metadata>
+  <files>
+    <file src="lib\sapfewse.dll" target="lib\net\" />
+    <file src="lib\saprotwr.net.dll" target="lib\net\" />
+  </files>
+</package>
