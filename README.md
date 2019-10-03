@@ -1,3 +1,5 @@
+> If you are looking for more information on how to automate the sap gui with c#, please check out this link: https://github.com/Xiaoy312/csharp-sap-sample
+
 # SAP.GUI.Scripting.net
 
 A package that contains saprotwr.dll and sapfewse.ocx converted for .net:
