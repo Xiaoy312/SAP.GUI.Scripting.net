@@ -2,22 +2,25 @@
 <package >
   <metadata>
     <id>SAP.GUI.Scripting.net</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <authors>Xiaoy312</authors>
     <owners>Xiaoy312</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <title>SAP GUI Automation for .net</title>
-    <description>
-    A package that contains saprotwr.dll and sapfewse.ocx converted for .net:
-        - saprotwr.dll : ROT Wrapper
-        - sapfewse.ocx : Controls library
-    
-    SAP version : 730 Final Release
-    
-    This package is created to be referenced by LINQPad, as it doesn't support type and COM library.
-    </description>
-    <releaseNotes>Porting to NuGet</releaseNotes>
-    <copyright>Copyright 2015</copyright>
+    <title>SAP GUI for .net</title>
+    <summary>COM Interop Libraries for SAP GUI</summary>
+    <description>warning: This package is no longer being maintained.
+A package that contains saprotwr.dll and sapfewse.ocx converted for .net:
+    - saprotwr.dll : ROT Wrapper
+    - sapfewse.ocx : Controls library
+
+SAP version : 730 Final Release
+
+This package is created to be referenced by LINQPad, as it doesn't support type and COM library.
+note: The libraries provided by this package may not match the version of SAP installed. You should consider using the COM library provided on with the SAP installation, and import them directly in Visual Studio.</description>
+    <releaseNotes>Add MIT License. Update nuspec.</releaseNotes>
+    <copyright>Copyright 2022</copyright>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/Xiaoy312/SAP.GUI.Scripting.net</projectUrl>
     <tags>SAP net</tags>
   </metadata>
   <files>
